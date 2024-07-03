@@ -8,7 +8,50 @@
     <title>Age Calculate</title>
 </head>
 <body>
-    
+
+<div class="content">
+
+   <!-- ========================================================= -->
+    <h1 class="headerOfPage">Age Calculate</h1>
+
+<div class="inputDate">
+
+<div class="dayIn">
+    <label for="yearinputs">Year</label>
+<input  type="text" required id="yearinputs" />
+</div>
+<div class="monthIn">
+    <label for="monthinputs">Month</label>
+    <input type="text" required id="monthinputs" />
+</div>
+<div class="yearIn">
+    <label for="daysinputs">Day</label>
+    <input type="text" required id="daysinputs" />
+</div>
+</div>
+<!-- ========================================================= -->
+<div class="lineAndBtn">
+    <hr/><button onclick="Calc()">Calculate</button><hr/>
+</div>
+
+
+<!-- ========================================================= -->
+
+<div class="result">
+
+    <div class="yearOut">
+        <h3><span class="res" id="outY">--</span> of Years</h3>
+    </div>
+<div class="monthOut">
+    <h3><span class="res" id="outMo">--</span> of Months</h3>
+</div>
+<div class="dayOut">
+    <h3><span class="res" id="outDay">--</span> of Days</h3>
+</div>
+</div>
+
+<!-- ========================================================= -->
+</div>
 </body>
 <script src="./index.js"></script>
 </html>
